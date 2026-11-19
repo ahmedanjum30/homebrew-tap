@@ -1,6 +1,6 @@
 cask "b-downloader" do
-  version "1.4.0"
-  sha256 "c4578164e107f1e7bc715ed931aa09a2857444e70882b8ee2d0dda0fbe51863a"
+  version "1.4.1"
+  sha256 "5c045f5ddc144d39c78692579ae9be2fbf9c31b23f50a8526b7e5e66c4bb5cc3"
 
   url "https://github.com/ahmedanjum30/B-Downloader/releases/download/v#{version}/B-Downloader-#{version}-macos.zip"
   name "B-Downloader"
@@ -28,6 +28,7 @@ cask "b-downloader" do
   zap trash: [
     "~/B-Downloader",
     "~/Library/Application Support/B-Downloader",
+    "~/Library/Containers/com.ahmadanjum.bdownloader.safari",
     "~/Library/Application Support/BraveSoftware/Brave-Browser/NativeMessagingHosts/com.bdownloader.host.json",
     "~/Library/Application Support/Chromium/NativeMessagingHosts/com.bdownloader.host.json",
     "~/Library/Application Support/com.operasoftware.Opera/NativeMessagingHosts/com.bdownloader.host.json",
