@@ -1,6 +1,6 @@
 cask "b-downloader" do
-  version "1.3.9"
-  sha256 "43cd38e56aa6e95ca3340b4d041711f086e8417e259bd8468aeb17acdf71d4d0"
+  version "1.4.0"
+  sha256 "c4578164e107f1e7bc715ed931aa09a2857444e70882b8ee2d0dda0fbe51863a"
 
   url "https://github.com/ahmedanjum30/B-Downloader/releases/download/v#{version}/B-Downloader-#{version}-macos.zip"
   name "B-Downloader"
@@ -26,6 +26,7 @@ cask "b-downloader" do
   uninstall quit: "com.ahmadanjum.bdownloader"
 
   zap trash: [
+    "~/B-Downloader",
     "~/Library/Application Support/B-Downloader",
     "~/Library/Application Support/BraveSoftware/Brave-Browser/NativeMessagingHosts/com.bdownloader.host.json",
     "~/Library/Application Support/Chromium/NativeMessagingHosts/com.bdownloader.host.json",
