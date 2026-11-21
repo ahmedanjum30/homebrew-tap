@@ -1,6 +1,6 @@
 cask "b-downloader" do
-  version "1.5.0"
-  sha256 "c0bcfacb15afbfb2266bb8ae592e03707f8eae3262e4bc213f7ee3be70aff5ce"
+  version "1.5.1"
+  sha256 "76b22aea96eba7d3754032862987607343f1e4905c44751c3d386610ca80bd2f"
 
   url "https://github.com/ahmedanjum30/B-Downloader/releases/download/v#{version}/B-Downloader-#{version}-macos.zip"
   name "B-Downloader"
