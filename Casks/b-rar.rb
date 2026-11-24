@@ -1,6 +1,6 @@
 cask "b-rar" do
-  version "1.5.0"
-  sha256 "a068ef25b2bf7baaa8bcb88928f70385081d0887d1f558c84726f4c54424c20f"
+  version "1.5.1"
+  sha256 "ba9861c4a983963a6cf54e8e5ad27ba5bbd07f054950601eb35abac7ed9021de"
 
   url "https://github.com/ahmedanjum30/B-Rar/releases/download/v#{version}/B-Rar-#{version}-macos.zip"
   name "B-Rar"
