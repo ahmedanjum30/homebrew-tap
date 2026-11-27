@@ -1,6 +1,6 @@
 cask "b-anime" do
-  version "0.4.9"
-  sha256 "8fa7b10fe4d016f788a2f8975c91792e86faa248ff70e51f60222dc83b34945d"
+  version "0.5.0"
+  sha256 "3d7289c6af8a75c57d8558dadcca920721144096e6150eabb411b07f2a141df3"
 
   url "https://github.com/ahmedanjum30/B-Anime/releases/download/v#{version}/B-Anime-#{version}-macos.zip"
   name "B-Anime"
